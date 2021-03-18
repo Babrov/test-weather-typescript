@@ -1,0 +1,40 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  box-shadow: 5px 5px 15px 5px #000000;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+.rain,
+.fog,
+.snow {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rain {
+  background-image: url('https://ca-times.brightspotcdn.com/dims4/default/fd410c8/2147483647/strip/true/crop/2016x1512+0+0/resize/840x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fab%2F5e%2F33ccbb5b42b6b3973b3da5ecbe7c%2Frain.jpg');
+}
+.fog {
+  background-image: url('https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9nfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80');
+}
+
+.snow {
+  background-image: url('https://www.nwahomepage.com/wp-content/uploads/sites/90/2021/01/Les-Murphy_Newton-Co-Snow5_1-7-2021.jpg?w=2048&h=1440&crop=1');
+}
